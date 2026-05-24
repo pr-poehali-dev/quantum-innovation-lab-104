@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 import { landingContent } from "./landing-content"
 import { HeroSection } from "./hero-section"
 import { TimerSection } from "./timer-section"
-import { EmailSignup } from "./email-signup"
+import { SocialProof } from "./email-signup"
 
 export function LandingPage() {
   const { theme } = useTheme()
@@ -20,7 +20,6 @@ export function LandingPage() {
   const [hours, setHours] = useState("0")
   const [minutes, setMinutes] = useState("0")
   const [seconds, setSeconds] = useState("0")
-  const [email, setEmail] = useState("")
   const [showSettings, setShowSettings] = useState(false)
 
   const handleSetTimer = () => {
@@ -88,11 +87,7 @@ export function LandingPage() {
             onSetTimer={handleSetTimer}
           />
 
-          <EmailSignup
-            email={email}
-            cta={currentContent.cta}
-            onEmailChange={setEmail}
-          />
+          <SocialProof />
         </div>
       </main>
 
