@@ -48,101 +48,101 @@ export function LandingPage() {
     }
   > = {
     "minimal-light": {
-      badge: "Скоро запуск",
-      title: "Будущее",
-      highlight: "продуктивности",
+      badge: "Торжественное событие",
+      title: "Последний",
+      highlight: "звонок",
       subtitle:
-        "Мы создаем то, что изменит ваш подход к работе. Просто, мощно и современно.",
-      cta: "Получить ранний доступ",
+        "Совсем скоро прозвенит самый важный звонок в их жизни. Не пропусти этот особенный момент.",
+      cta: "Получить приглашение",
       features: [
-        { icon: Sparkles, text: "На базе ИИ" },
-        { icon: Zap, text: "Молниеносно" },
-        { icon: Shield, text: "Приватность" },
+        { icon: Sparkles, text: "Торжество" },
+        { icon: Zap, text: "Живое выступление" },
+        { icon: Shield, text: "Незабываемо" },
       ],
     },
     dark: {
-      badge: "Скоро старт",
-      title: "Новый уровень",
-      highlight: "эволюции",
-      subtitle: "Новый стандарт цифрового опыта. Создано для тех, кто требует лучшего.",
-      cta: "Встать в очередь",
+      badge: "Скоро праздник",
+      title: "Последний",
+      highlight: "звонок",
+      subtitle: "Финальная страница школьной жизни. Встречаем её вместе — ярко и с душой.",
+      cta: "Прийти на праздник",
       features: [
-        { icon: Sparkles, text: "Новое поколение" },
-        { icon: Zap, text: "Сверхскорость" },
-        { icon: Shield, text: "Для бизнеса" },
+        { icon: Sparkles, text: "Торжественно" },
+        { icon: Zap, text: "Ярко" },
+        { icon: Shield, text: "С душой" },
       ],
     },
     retro: {
-      badge: "Отправление скоро",
-      title: "Ваше путешествие",
-      highlight: "начинается здесь",
-      subtitle: "Шагните в мир, где классика встречает инновации. Вечный дизайн, современный функционал.",
-      cta: "Забронировать место",
+      badge: "Приглашаем на праздник",
+      title: "Последний",
+      highlight: "звонок",
+      subtitle: "Тёплый и торжественный праздник, который останется в памяти на всю жизнь.",
+      cta: "Подтвердить присутствие",
       features: [
-        { icon: Sparkles, text: "Вечный дизайн" },
-        { icon: Zap, text: "Мгновенный доступ" },
-        { icon: Shield, text: "Надежность" },
+        { icon: Sparkles, text: "Тепло и уют" },
+        { icon: Zap, text: "Живая музыка" },
+        { icon: Shield, text: "Память навсегда" },
       ],
     },
     neon: {
-      badge: "[ ИНИЦИАЛИЗАЦИЯ ]",
-      title: "СИСТЕМНЫЙ",
-      highlight: "ПРОРЫВ",
-      subtitle: "Протокол интерфейса нового поколения. Ломаем барьеры. Переопределяем границы.",
-      cta: "НАЧАТЬ ДОСТУП",
+      badge: "[ ФИНАЛЬНЫЙ ЗВОНОК ]",
+      title: "ПОСЛЕДНИЙ",
+      highlight: "ЗВОНОК",
+      subtitle: "// Торжество. Выпускники. Счастье. Впереди — целая жизнь.",
+      cta: "ПРИНЯТЬ ПРИГЛАШЕНИЕ",
       features: [
-        { icon: Sparkles, text: "КВАНТОВОЕ ЯДРО" },
-        { icon: Zap, text: "ГИПЕРСКОРОСТЬ" },
-        { icon: Shield, text: "ШИФРОВАНИЕ" },
+        { icon: Sparkles, text: "ЯРКИЙ ПРАЗДНИК" },
+        { icon: Zap, text: "ЖИВОЕ ШОУ" },
+        { icon: Shield, text: "НЕЗАБЫВАЕМО" },
       ],
     },
     monochrome: {
-      badge: "Анонс",
-      title: "Изысканная",
-      highlight: "простота",
-      subtitle: "Где форма встречает функцию. Создано с умыслом, спроектировано для эффекта.",
-      cta: "Получить уведомление",
+      badge: "Приглашение",
+      title: "Последний",
+      highlight: "звонок",
+      subtitle: "Торжественный финал школьного пути. Сдержанно, элегантно, по-настоящему.",
+      cta: "Подтвердить участие",
       features: [
-        { icon: Sparkles, text: "Продуманно" },
-        { icon: Zap, text: "Эффективно" },
-        { icon: Shield, text: "Надежно" },
+        { icon: Sparkles, text: "Торжественно" },
+        { icon: Zap, text: "Памятно" },
+        { icon: Shield, text: "Искренне" },
       ],
     },
     glass: {
-      badge: "Превью",
-      title: "За пределами",
-      highlight: "границ",
-      subtitle: "Плавный опыт, который адаптируется под вас. Бесшовно, красиво, интуитивно.",
-      cta: "Запросить доступ",
+      badge: "Особый день",
+      title: "Последний",
+      highlight: "звонок",
+      subtitle: "Лёгкий, светлый и радостный праздник. Для тех, кто делает первый шаг во взрослую жизнь.",
+      cta: "Прийти на праздник",
       features: [
-        { icon: Sparkles, text: "Адаптивно" },
-        { icon: Zap, text: "Бесшовно" },
-        { icon: Shield, text: "Безопасно" },
+        { icon: Sparkles, text: "Светло" },
+        { icon: Zap, text: "Радостно" },
+        { icon: Shield, text: "Трогательно" },
       ],
     },
     terminal: {
-      badge: "> status: pending",
-      title: "$ sudo launch",
-      highlight: "--force",
-      subtitle: "// требуется root доступ. ожидание подтверждения развертывания...",
-      cta: "$ subscribe --notify",
+      badge: "> event: last_bell",
+      title: "$ ring",
+      highlight: "--final",
+      subtitle: "// школа завершена. выпускники готовы. церемония начнётся по расписанию...",
+      cta: "$ rsvp --confirm",
       features: [
-        { icon: Sparkles, text: "--optimized" },
-        { icon: Zap, text: "--async" },
-        { icon: Shield, text: "--secure" },
+        { icon: Sparkles, text: "--ceremony" },
+        { icon: Zap, text: "--live_show" },
+        { icon: Shield, text: "--memories" },
       ],
     },
     luxury: {
-      badge: "Эксклюзивный превью",
-      title: "Открываем",
-      highlight: "совершенство",
+      badge: "Торжественное приглашение",
+      title: "Последний",
+      highlight: "звонок",
       subtitle:
-        "Для избранных ценителей. Опыт, созданный для тех, кто не соглашается на меньшее.",
-      cta: "Запросить приглашение",
+        "Изысканное торжество в честь выпускников. Незабываемый праздник с особой атмосферой.",
+      cta: "Принять приглашение",
       features: [
-        { icon: Sparkles, text: "Уникально" },
-        { icon: Zap, text: "Премиум" },
-        { icon: Shield, text: "Эксклюзив" },
+        { icon: Sparkles, text: "Торжественно" },
+        { icon: Zap, text: "Премиально" },
+        { icon: Shield, text: "Эксклюзивно" },
       ],
     },
   }
@@ -246,7 +246,7 @@ export function LandingPage() {
                 themeConfig.fontClass,
               )}
             >
-              {theme === "terminal" ? "// time_remaining:" : "До запуска"}
+              {theme === "terminal" ? "// time_remaining:" : "До праздника"}
             </p>
             <ThemedCountdown targetDate={targetDate} />
             <button
@@ -383,7 +383,7 @@ export function LandingPage() {
           >
             <Input
               type="email"
-              placeholder={theme === "terminal" ? "your@email.sh" : "Введите email"}
+              placeholder={theme === "terminal" ? "your@email.sh" : "Введите ваш email для приглашения"}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className={cn(
@@ -483,7 +483,7 @@ export function LandingPage() {
                 ))}
               </div>
               <span className="text-[10px] sm:text-xs">
-                {theme === "terminal" ? "// 2847 users_waiting" : "Уже 2 847+ в очереди"}
+                {theme === "terminal" ? "// 847 guests_confirmed" : "Уже 847+ подтвердили участие"}
               </span>
             </div>
           </div>
@@ -501,8 +501,8 @@ export function LandingPage() {
       >
         <p className="text-xs sm:text-sm">
           {theme === "terminal"
-            ? "© 2025 // launchpad_inc | privacy --policy | terms --conditions"
-            : "© 2025 LaunchPad Inc. · Политика конфиденциальности · Условия"}
+            ? "© 2025 // last_bell_ceremony | with --love"
+            : "© 2025 · Последний звонок · С любовью для выпускников"}
         </p>
       </footer>
     </div>
