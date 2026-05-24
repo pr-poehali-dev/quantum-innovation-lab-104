@@ -13,9 +13,7 @@ export function LandingPage() {
   const themeConfig = themes[theme]
 
   const [targetDate, setTargetDate] = useState<Date>(() => {
-    const date = new Date()
-    date.setDate(date.getDate() + 7)
-    return date
+    return new Date("2026-05-26T10:00:00")
   })
 
   const [days, setDays] = useState("7")
