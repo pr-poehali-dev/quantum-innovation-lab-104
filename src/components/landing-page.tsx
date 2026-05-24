@@ -6,7 +6,6 @@ import { cn } from "@/lib/utils"
 import { landingContent } from "./landing-content"
 import { HeroSection } from "./hero-section"
 import { TimerSection } from "./timer-section"
-import { SocialProof } from "./email-signup"
 
 export function LandingPage() {
   const { theme } = useTheme()
@@ -87,7 +86,6 @@ export function LandingPage() {
             onSetTimer={handleSetTimer}
           />
 
-          <SocialProof />
         </div>
       </main>
 
