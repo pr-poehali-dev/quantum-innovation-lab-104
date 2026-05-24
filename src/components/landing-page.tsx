@@ -188,9 +188,7 @@ export function LandingPage() {
             <p className="text-xs sm:text-sm uppercase tracking-widest opacity-70">
               {theme === "terminal" ? "// school: №183 | class: 11В" : "Школа с углублённым изучением отдельных предметов №183 имени Р. Алексеева"}
             </p>
-            <p className={cn("text-lg sm:text-xl font-semibold", themeConfig.foreground)}>
-              {theme === "terminal" ? "> class_11V.graduates" : "Выпускники 11 «В»"}
-            </p>
+
           </div>
 
           {/* Badge */}
